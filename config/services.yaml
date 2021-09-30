@@ -25,6 +25,13 @@ services:
         decorates: 'api_platform.openapi.normalizer'
         arguments: ['@.inner']
         autoconfigure: false
+    App\Swagger\SwaggerGuarani:
+        decorates: 'api_platform.openapi.normalizer'
+        arguments: ['@.inner']
+        autoconfigure: false
+    
+   
+   
 
     
 
